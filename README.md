@@ -1,11 +1,19 @@
 # An SPA Porduct Review Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+
+## Live Site Link
 
 In the project directory, you can run:
 
-### `npm start`
+### `Available Features of This Website`
+* Single page Application developed with react.
+* Contains SmartWatch Details
+* Customer Review Page - which contains product user's ratings and comments about the product.
+* Great looking Navigation bar at the top of the website
+* A very smooth page to page loading.
+
+
+
 
 
