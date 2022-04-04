@@ -17,7 +17,7 @@ const Home = () => {
       <div className="grid sm:grid-cols-2 grid-cols-1   ">
         <div className=" mt-5">
           <h1 className="text-blue-500 text-5xl font-semibold">Be Smart </h1>
-          <h1 className="text-5xl font-semibold">
+          <h1 className="text-5xl font-semibold text-gray-700">
             With <span className="text-blue-500">Bolos</span>
             <br />
             Smart<span className="text-blue-500">Watch</span>
@@ -54,8 +54,8 @@ const Home = () => {
         </div>
       </div>
       {/* Customer Review */}
-          <div className="my-28">
-              <h1 className="text-5xl font-semibold my-8">Customer <span className="text-blue-400 ">Reviews</span></h1>
+          <div className="my-28 mx-2">
+              <h1 className="text-5xl font-semibold my-8 text-gray-700">Customer <span className="text-blue-400 ">Reviews</span></h1>
               {
                   someReviews.map(review=> <ReviewC key={review.id} review={review}></ReviewC>)
               }
