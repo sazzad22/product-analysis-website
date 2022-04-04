@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <div >
       {/* Product */}
-      <div className="grid sm:grid-cols-2   ">
+      <div className="grid sm:grid-cols-2 grid-cols-1   ">
         <div className=" mt-5">
           <h1 className="text-blue-500 text-5xl">Be Smart </h1>
           <h1 className="text-5xl">
