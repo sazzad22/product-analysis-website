@@ -13,6 +13,6 @@ nav a:hover{
 nav a:focus{
     
     color: rgb(255, 255, 255);
-    background-color: rgba(26, 48, 86, 0.855);
+    background-color: rgb(117, 93, 255);
     box-shadow: 4px 4px 3px gray;
 }
