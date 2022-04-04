@@ -1,10 +1,15 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import useReview from "../../Hooks/useReview";
 import ReviewC from "../ReviewC/ReviewC";
 
 const Home = () => {
   const [reviews, setReviews] = useReview();
-  console.log(reviews);
+    
+    const someReviews = reviews.slice(0, 3);
+    let navigate = useNavigate();
+
+    const navigateTo = () => navigate('/reviews');
   return (
     <div >
       {/* Product */}
@@ -34,7 +39,7 @@ const Home = () => {
                 10 meters deep water.{" "}
               </p>
             </small>
-            <button className="mt-5 rounded shadow-lg font-semibold  bg-blue-400 px-6 py-2 text-white flex justify-start">
+            <button className="mt-5 rounded shadow-lg font-semibold  bg-blue-400 px-6 py-2 text-white flex justify-start hover:bg-blue-500">
               Read More
             </button>
           </div>
@@ -48,10 +53,12 @@ const Home = () => {
         </div>
       </div>
       {/* Customer Review */}
-          <div>
+          <div className="my-28">
+              <h1 className="text-5xl font-semibold my-8">Customer <span className="text-blue-400 ">Reviews</span></h1>
               {
-                  reviews.map(review=> <ReviewC key={review.id} review={review}></ReviewC>)
+                  someReviews.map(review=> <ReviewC key={review.id} review={review}></ReviewC>)
               }
+              <button onClick={()=>navigateTo()}  className="bg-blue-400 rounded px-10 py-2 my-5 font-semibold shadow-lg hover:bg-blue-500 text-white">Show More Reviews</button>
       </div>
     </div>
   );
