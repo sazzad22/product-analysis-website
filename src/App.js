@@ -7,6 +7,7 @@ import Dashboard from './components/Dashboard/Dashboard';
 import About from './components/About/About';
 import Blogs from './components/Blogs/Blogs';
 import Header from './components/Header/Header';
+import Unavailable from './components/Unavailable/Unavailable';
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
         <Route path='/dashboard' element={<Dashboard></Dashboard>}></Route>
         <Route path='/blogs' element={<Blogs></Blogs>}></Route>
         <Route path='/about' element={<About></About>}></Route>
-        <Route path='*' element={<About></About>}></Route>
+        <Route path='*' element={<Unavailable></Unavailable>}></Route>
       </Routes>
     </div>
   );
