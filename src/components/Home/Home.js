@@ -2,6 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import useReview from "../../Hooks/useReview";
 import ReviewC from "../ReviewC/ReviewC";
+import './Home.css'
 
 const Home = () => {
   const [reviews, setReviews] = useReview();
@@ -15,11 +16,11 @@ const Home = () => {
       {/* Product */}
       <div className="grid sm:grid-cols-2 grid-cols-1   ">
         <div className=" mt-5">
-          <h1 className="text-blue-500 text-5xl">Be Smart </h1>
-          <h1 className="text-5xl">
+          <h1 className="text-blue-500 text-5xl font-semibold">Be Smart </h1>
+          <h1 className="text-5xl font-semibold">
             With <span className="text-blue-500">Bolos</span>
             <br />
-            Smart<span className="text-blue-600">Watch</span>
+            Smart<span className="text-blue-500">Watch</span>
           </h1>
           <div className="mt-6 text-justify px-20">
             <small>
@@ -46,7 +47,7 @@ const Home = () => {
         </div>
         <div className="flex justify-center">
           <img
-            className="scale-125 mt-20 "
+            className="scale-125 mt-20 rounded watch-photo "
             src="https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=327&q=80"
             alt=""
           />
