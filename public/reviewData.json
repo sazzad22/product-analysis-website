@@ -1,0 +1,44 @@
+[
+    {
+      "id":1,
+       "name":"R.Samion",
+       "img":"https://randomuser.me/api/portraits/men/18.jpg",
+       "rating":4.5,
+       "comment":"Great product. Really helpful for my daily exercises"
+    },
+    {
+      "id":2,
+       "name":"Walter White",
+       "img":"https://randomuser.me/api/portraits/men/28.jpg",
+       "rating":5,
+       "comment":"The heart monitor of the watch is spot on. Very accurate technology.Give it a Try and You will know"
+    },
+    {
+      "id":3,
+       "name":"Peter Parker",
+       "img":"https://randomuser.me/api/portraits/men/46.jpg",
+       "rating":4,
+       "comment":"I really love the looks and the aesthetics of Bolos tot5. I bought another one for my son too. He liked it"
+    },
+    {
+      "id":4,
+       "name":"Endue Garfield",
+       "img":"https://randomuser.me/api/portraits/men/35.jpg",
+       "rating":4.5,
+       "comment":"Very durable product.Making a scratch on the glass is not easy."
+    },
+    {
+      "id":5,
+       "name":"Micheal.C",
+       "img":"https://randomuser.me/api/portraits/men/67.jpg",
+       "rating":4,
+       "comment":"Love the watch.It has customizable belts too. Good for casual looks and sports"
+    },
+    {
+      "id":6,
+       "name":"Daniel Thomson",
+       "img":"https://randomuser.me/api/portraits/men/86.jpg",
+       "rating":5,
+       "comment":"I liked the previous version. This version not so much. The watch is not waterproof enough."
+    }
+ ]

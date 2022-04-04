@@ -1,10 +1,14 @@
 import React from "react";
+import useReview from "../../Hooks/useReview";
+import ReviewC from "../ReviewC/ReviewC";
 
 const Home = () => {
+  const [reviews, setReviews] = useReview();
+  console.log(reviews);
   return (
-      <div>
-          {/* Product */}
-      <div className="grid grid-cols-2  ">
+    <div >
+      {/* Product */}
+      <div className="grid sm:grid-cols-2   ">
         <div className=" mt-5">
           <h1 className="text-blue-500 text-5xl">Be Smart </h1>
           <h1 className="text-5xl">
@@ -42,11 +46,13 @@ const Home = () => {
             alt=""
           />
         </div>
-          </div>
-        {/* Customer Review */}
+      </div>
+      {/* Customer Review */}
           <div>
-              
-        </div>
+              {
+                  reviews.map(review=> <ReviewC key={review.id} review={review}></ReviewC>)
+              }
+      </div>
     </div>
   );
 };
