@@ -13,8 +13,8 @@ In the project directory, you can run:
 * Contains SmartWatch Details
 * Customer Review Page - which contains product user's ratings and comments about the product.
 * Great looking Navigation bar at the top of the website
-* A very smooth page to page loading.
-
+* A very smooth page 
+transition and interactive user experience
 
 
 
